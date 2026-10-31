@@ -1,0 +1,4 @@
+#!/bin/sh
+ROOT="$(cd "$(dirname "$(readlink -f "$0")")/.." && pwd)"
+export PYTHONPATH="$ROOT${PYTHONPATH:+:$PYTHONPATH}"
+exec /usr/bin/python3 -m omawin "$@"

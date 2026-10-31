@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Omawin
+Comment=Choose how apps open in Hyprland
+Exec=/home/ruegen/apps/omawin/omawin
+Icon=preferences-system-windows
+Terminal=false
+Type=Application
+Categories=Settings;DesktopSettings;
+StartupWMClass=omawin
